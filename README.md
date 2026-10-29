@@ -1,7 +1,7 @@
 # Bài 3 : Ngăn chặn quá tải lưu trữ khi đồng bộ mã nguồn
 
  
-#1. Báo cáo I/O: Luồng dữ liệu (Ctrl+S ➔ Tích xanh)
+## 1. Báo cáo I/O: Luồng dữ liệu (Ctrl+S ➔ Tích xanh)
   
     [Ctrl+S] -> (1) SSD Local -> (2) File Watcher -> (3) Sync Client (Diff/Hash) -> (4) Upload HTTPS -> (5) Tích xanh 
     
@@ -15,7 +15,7 @@
   
   Xác nhận: Server lưu thành công và trả về ACK ➔ Icon file đổi thành Tích xanh 
 
-##2. Xử lý bẫy node_modules & Hybrid Workflow 
+## 2. Xử lý bẫy node_modules & Hybrid Workflow 
 
   Loại trừ node_modules:
   
@@ -29,7 +29,7 @@
   
   Tài liệu, assets cũ: Chuột phải chọn Free up space (biểu tượng đám mây ☁️) để giải phóng ổ cứng.
   
-##3. Sơ đồ tổ chức thư mục Cloud chuẩn 
+## 3. Sơ đồ tổ chức thư mục Cloud chuẩn 
 
   Plaintext
    Cloud Workspace/
